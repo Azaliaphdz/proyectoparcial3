@@ -11,16 +11,34 @@ class ClasesCVController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var imgFondoHorario: UIImageView!
     @IBOutlet weak var imgFondoBlanco: UIImageView!
+    @IBOutlet weak var imgFondoBlanco2: UIImageView!
+    @IBOutlet weak var imgFondoBlanco3: UIImageView!
+    
+    @IBOutlet weak var lblHola: UILabel!
+    
+    var alumnos : [Alumno] = []
+    var alumno : Alumno?
     
     var clasesCV = ClasesCV.fetchClasesCV()
     
+    //var hola = "¡Hola!, "
+    
+    var hola: String?
     
     //let cellScaling: CGFloat = 0.85
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //lblHola.text = hola
         
+        lblHola.text = alumno?.nombre
+        
+        alumnos.append(Alumno(nombre: "Hola, Azalia"))
+        
+        //self.title = alumno?.nombre
         collectionView.backgroundColor = UIColor.clear.withAlphaComponent(0)
+        
+        
         
         //let screenSize = UIScreen.main.bounds.size
         //let cellWidth = floor(screenSize.width * cellScaling)
@@ -40,17 +58,32 @@ class ClasesCVController: UIViewController {
         
         
         //Sombras
-        imgFondoHorario.layer.cornerRadius = 3.0
-        imgFondoHorario.layer.shadowRadius = 10.0
-        imgFondoHorario.layer.shadowOpacity = 0.4
-        imgFondoHorario.layer.shadowOffset = CGSize(width: 5, height: 10)
-        imgFondoHorario.clipsToBounds = false
+        //imgFondoHorario.layer.cornerRadius = 3.0
+        //imgFondoHorario.layer.shadowRadius = 10.0
+        //imgFondoHorario.layer.shadowOpacity = 0.4
+        //imgFondoHorario.layer.shadowOffset = CGSize(width: 5, height: 10)
+        //imgFondoHorario.clipsToBounds = false
         
         imgFondoBlanco.layer.cornerRadius = 1.0
         imgFondoBlanco.layer.shadowRadius = 10.0
         imgFondoBlanco.layer.shadowOpacity = 0.4
         imgFondoBlanco.layer.shadowOffset = CGSize(width: 5, height: 10)
         imgFondoBlanco.clipsToBounds = false
+        
+        imgFondoBlanco2.layer.cornerRadius = 1.0
+        imgFondoBlanco2.layer.shadowRadius = 10.0
+        imgFondoBlanco2.layer.shadowOpacity = 0.4
+        imgFondoBlanco2.layer.shadowOffset = CGSize(width: 5, height: 10)
+        imgFondoBlanco2.clipsToBounds = false
+        
+        imgFondoBlanco3.layer.cornerRadius = 1.0
+        imgFondoBlanco3.layer.shadowRadius = 10.0
+        imgFondoBlanco3.layer.shadowOpacity = 0.4
+        imgFondoBlanco3.layer.shadowOffset = CGSize(width: 5, height: 10)
+        imgFondoBlanco3.clipsToBounds = false
+        
+        
+        
         
     }
 }

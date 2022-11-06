@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260DC5D129185A3C003622F0 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D029185A3C003622F0 /* Alumno.swift */; };
+		260DC5D329185CA1003622F0 /* AlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D229185CA1003622F0 /* AlumnoController.swift */; };
 		269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */; };
 		269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBF291770E80088C162 /* ClasesCV.swift */; };
 		269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEC129178B540088C162 /* ClasesCVController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260DC5D029185A3C003622F0 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		260DC5D229185CA1003622F0 /* AlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoController.swift; sourceTree = "<group>"; };
 		269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaClasesCV.swift; sourceTree = "<group>"; };
 		269FCEBF291770E80088C162 /* ClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCV.swift; sourceTree = "<group>"; };
 		269FCEC129178B540088C162 /* ClasesCVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCVController.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				269FCEBF291770E80088C162 /* ClasesCV.swift */,
 				269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */,
 				269FCEC129178B540088C162 /* ClasesCVController.swift */,
+				260DC5D029185A3C003622F0 /* Alumno.swift */,
+				260DC5D229185CA1003622F0 /* AlumnoController.swift */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260DC5D129185A3C003622F0 /* Alumno.swift in Sources */,
+				260DC5D329185CA1003622F0 /* AlumnoController.swift in Sources */,
 				FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */,
 				FB738ED529155E1B00CE20CC /* AppDelegate.swift in Sources */,
 				FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */,
