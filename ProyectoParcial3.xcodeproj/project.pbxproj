@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */; };
+		269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBF291770E80088C162 /* ClasesCV.swift */; };
+		269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEC129178B540088C162 /* ClasesCVController.swift */; };
 		FB738ED529155E1B00CE20CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738ED429155E1B00CE20CC /* AppDelegate.swift */; };
 		FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738ED629155E1B00CE20CC /* SceneDelegate.swift */; };
 		FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738ED829155E1B00CE20CC /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaClasesCV.swift; sourceTree = "<group>"; };
+		269FCEBF291770E80088C162 /* ClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCV.swift; sourceTree = "<group>"; };
+		269FCEC129178B540088C162 /* ClasesCVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCVController.swift; sourceTree = "<group>"; };
 		FB738ED129155E1B00CE20CC /* ProyectoParcial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB738ED429155E1B00CE20CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB738ED629155E1B00CE20CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				FB738EDD29155E1C00CE20CC /* Assets.xcassets */,
 				FB738EDF29155E1C00CE20CC /* LaunchScreen.storyboard */,
 				FB738EE229155E1C00CE20CC /* Info.plist */,
+				269FCEBF291770E80088C162 /* ClasesCV.swift */,
+				269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */,
+				269FCEC129178B540088C162 /* ClasesCVController.swift */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 				FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */,
 				FB738ED529155E1B00CE20CC /* AppDelegate.swift in Sources */,
 				FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */,
+				269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */,
+				269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */,
+				269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +451,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "academy app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -466,6 +479,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "academy app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
