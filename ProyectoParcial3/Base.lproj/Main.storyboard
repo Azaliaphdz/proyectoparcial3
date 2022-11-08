@@ -113,7 +113,7 @@
                                                 <rect key="frame" x="16" y="-19" width="358" height="233.33333333333337"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Img1" translatesAutoresizingMaskIntoConstraints="NO" id="Mrm-0a-aLx">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="Mrm-0a-aLx">
                                                 <rect key="frame" x="168" y="-19" width="230" height="263"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -124,7 +124,7 @@
                                                 <color key="textColor" red="0.93483799700000003" green="0.92580068110000002" blue="0.98198968170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="dNo-Kj-9Zg">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dNo-Kj-9Zg">
                                                 <rect key="frame" x="43" y="84" width="117" height="96.000000000000028"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -162,7 +162,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="ver más">
                                                             <attributes>
-                                                                <font key="NSFont" size="16" name="Roboto-Medium"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -181,7 +181,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Consultar">
                                                             <attributes>
-                                                                <font key="NSFont" size="16" name="Roboto-Medium"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -204,7 +204,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Menú">
                                                             <attributes>
-                                                                <font key="NSFont" size="16" name="Roboto-Medium"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -253,7 +253,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Responder">
                                                             <attributes>
-                                                                <font key="NSFont" size="16" name="Roboto-Medium"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -363,7 +363,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Matricula" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cp-hs-hZ8">
-                                <rect key="frame" x="147" y="131" width="72" height="20"/>
+                                <rect key="frame" x="147" y="131" width="213" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" red="0.16862745100000001" green="0.25882352939999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -377,28 +377,28 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carrera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKO-HM-xcl">
-                                <rect key="frame" x="147" y="157" width="56" height="20"/>
+                                <rect key="frame" x="147" y="157" width="213" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" red="0.16862745100000001" green="0.25882352939999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dirección" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM1-M0-hAd">
-                                <rect key="frame" x="147" y="183" width="71" height="20"/>
+                                <rect key="frame" x="147" y="183" width="213" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" red="0.52941176470588236" green="0.37647058823529411" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLW-UV-TnN">
-                                <rect key="frame" x="147" y="206" width="25" height="20"/>
+                                <rect key="frame" x="147" y="206" width="213" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" red="0.52941176469999995" green="0.37647058820000001" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O44-k8-uMS">
-                                <rect key="frame" x="147" y="229" width="51" height="20"/>
+                                <rect key="frame" x="147" y="229" width="213" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" red="0.52941176469999995" green="0.37647058820000001" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -506,7 +506,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.88792072190000004" green="0.84965387599999997" blue="0.98198968170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.88627450980392153" green="0.84965387599999997" blue="0.98198968170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="imgFondoC" destination="LaW-Ki-7h1" id="mwT-AK-c5n"/>
@@ -537,6 +537,12 @@
                     <navigationItem key="navigationItem" title="Perfil" style="editor" id="Cgf-ax-rf8"/>
                     <connections>
                         <outlet property="imgFondoPerfil" destination="1i2-3E-nO9" id="ro1-8T-0Yo"/>
+                        <outlet property="lblCarrera" destination="FKO-HM-xcl" id="CJd-1p-yLx"/>
+                        <outlet property="lblCel" destination="QLW-UV-TnN" id="c1j-Or-7UR"/>
+                        <outlet property="lblCorreo" destination="O44-k8-uMS" id="gZf-cc-Kuv"/>
+                        <outlet property="lblDireccion" destination="vM1-M0-hAd" id="wwr-DC-jzA"/>
+                        <outlet property="lblMatricula" destination="1cp-hs-hZ8" id="19g-7G-jM6"/>
+                        <outlet property="lblNombre" destination="2hx-rl-c4o" id="LMT-ar-NtK"/>
                         <outlet property="tvContactos" destination="dkG-NW-1W9" id="pXR-RG-bqx"/>
                     </connections>
                 </viewController>
@@ -591,7 +597,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="actualizar">
                                             <attributes>
-                                                <font key="NSFont" size="16" name="Roboto-Medium"/>
+                                                <font key="NSFont" metaFont="system" size="16"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -726,13 +732,13 @@
         <image name="Fondo_Blanco" width="1567" height="843"/>
         <image name="Fondo_Horario" width="716" height="677"/>
         <image name="Horario" width="2125" height="2126"/>
-        <image name="Img1" width="1701" height="1630"/>
-        <image name="Logo" width="1206" height="1205"/>
         <image name="Morado" width="588" height="697"/>
         <image name="Pagos" width="1837" height="1711"/>
         <image name="Perfil1" width="1677" height="2435"/>
         <image name="Progra" width="2755" height="2009"/>
         <image name="Rosa" width="588" height="697"/>
+        <image name="img1" width="1701" height="1630"/>
+        <image name="logo" width="1206" height="1205"/>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

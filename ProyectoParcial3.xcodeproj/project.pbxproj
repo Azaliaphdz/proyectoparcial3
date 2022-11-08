@@ -33,6 +33,7 @@
 		FB738EEC29155E1C00CE20CC /* ProyectoParcial3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738EEB29155E1C00CE20CC /* ProyectoParcial3Tests.swift */; };
 		FB738EF629155E1C00CE20CC /* ProyectoParcial3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738EF529155E1C00CE20CC /* ProyectoParcial3UITests.swift */; };
 		FB738EF829155E1C00CE20CC /* ProyectoParcial3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738EF729155E1C00CE20CC /* ProyectoParcial3UITestsLaunchTests.swift */; };
+		FB7459FC291A9F5E00A92D7A /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7459FB291A9F5E00A92D7A /* Alumno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		FB738EF129155E1C00CE20CC /* ProyectoParcial3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcial3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB738EF529155E1C00CE20CC /* ProyectoParcial3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITests.swift; sourceTree = "<group>"; };
 		FB738EF729155E1C00CE20CC /* ProyectoParcial3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB7459FB291A9F5E00A92D7A /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */,
 				268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */,
 				268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */,
+				FB7459FB291A9F5E00A92D7A /* Alumno.swift */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				268EAFBF291A3D5F00D8ADB2 /* PagadosController.swift in Sources */,
 				268EAFC3291A3E4000D8ADB2 /* Actualizar.swift in Sources */,
 				260DC5D129185A3C003622F0 /* Contacto.swift in Sources */,
+				FB7459FC291A9F5E00A92D7A /* Alumno.swift in Sources */,
 				268EAFC5291A3E6600D8ADB2 /* ActualizarController.swift in Sources */,
 				260DC5D329185CA1003622F0 /* ContactosController.swift in Sources */,
 				FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */,

@@ -10,6 +10,18 @@ import UIKit
 class ContactosController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var contactos : [Contacto] = []
     
+    var alumnos: [Alumno] = [Alumno(nombre: "Azalia", matricula: "199229", carrera: "Ing. Producción Multimedia", direccion: "California #1903 sur", cel: "6441545187", correo: "azaliaphdz@hotmail.com")]
+    
+    
+    @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lblMatricula: UILabel!
+    @IBOutlet weak var lblCarrera: UILabel!
+    @IBOutlet weak var lblDireccion: UILabel!
+    @IBOutlet weak var lblCel: UILabel!
+    @IBOutlet weak var lblCorreo: UILabel!
+    
+    
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
            return 1
        }
@@ -27,6 +39,8 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaContacto") as! CeldaContactoController
+        celda.contentView.backgroundColor = UIColor(red: 226/255, green: 217/255, blue: 250/255, alpha: 1)
+        
         celda.lblNombre.text = contactos[indexPath.row].nombre
         celda.lblCel.text = contactos[indexPath.row].cel
         celda.lblCorreo.text = contactos[indexPath.row].correo
@@ -42,6 +56,13 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         tvContactos.backgroundColor = .clear
+        lblNombre.text = alumnos[0].nombre
+        lblMatricula.text = alumnos[0].matricula
+        lblCel.text = alumnos[0].carrera
+        lblCarrera.text = alumnos[0].carrera
+        lblDireccion.text = alumnos[0].direccion
+        lblCorreo.text = alumnos[0].correo
+                
         
         imgFondoPerfil.layer.cornerRadius = 1.0
         imgFondoPerfil.layer.shadowRadius = 10.0
