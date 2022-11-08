@@ -9,8 +9,9 @@ import UIKit
 
 class ContactosController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var contactos : [Contacto] = []
+    var pagados: [Pagado] = []
     
-    var alumnos: [Alumno] = [Alumno(nombre: "Azalia", matricula: "199229", carrera: "Ing. Producción Multimedia", direccion: "California #1903 sur", cel: "6441545187", correo: "azaliaphdz@hotmail.com")]
+    var alumno: Alumno? = Alumno(nombre: "Azalia", matricula: "199229", carrera: "Ing. Producción Multimedia", direccion: "California #1903 sur", cel: "6441545187", correo: "azaliaphdz@hotmail.com")
     
     
     @IBOutlet weak var lblNombre: UILabel!
@@ -19,7 +20,7 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var lblDireccion: UILabel!
     @IBOutlet weak var lblCel: UILabel!
     @IBOutlet weak var lblCorreo: UILabel!
-    
+       
     
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -27,41 +28,61 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
        }
        
        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-           return 84
+           if tableView == tvContactos{
+               return 102
+           }else {
+               return 41
+           }
        }
        
        func numberOfSections(in tableView: UITableView) -> Int {
            return 1
+           
        }
        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-           return contactos.count
+           if tableView == tvContactos{
+               return contactos.count
+           }
+           return pagados.count
        }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tableView.dequeueReusableCell(withIdentifier: "celdaContacto") as! CeldaContactoController
-        celda.contentView.backgroundColor = UIColor(red: 226/255, green: 217/255, blue: 250/255, alpha: 1)
-        
-        celda.lblNombre.text = contactos[indexPath.row].nombre
-        celda.lblCel.text = contactos[indexPath.row].cel
-        celda.lblCorreo.text = contactos[indexPath.row].correo
-        celda.imgFondoC.image = UIImage(named: contactos[indexPath.row].fondoC)
-        celda.imgFotoC.image = UIImage(named: contactos[indexPath.row].fotoC)
-        return celda
+        if tableView == tvContactos{
+                let celda = tableView.dequeueReusableCell(withIdentifier: "celdaContacto") as! CeldaContactoController
+            
+            //celda.contentView.backgroundColor = UIColor(red: 226/255, green: 217/255, blue: 250/255, alpha: 1)
+            
+            celda.lblNombre.text = contactos[indexPath.row].nombre
+            celda.lblCel.text = contactos[indexPath.row].cel
+            celda.lblCorreo.text = contactos[indexPath.row].correo
+            celda.imgFondoC.image = UIImage(named: contactos[indexPath.row].fondoC)
+            celda.imgFotoC.image = UIImage(named: contactos[indexPath.row].fotoC)
+            return celda
+        } else {
+            let celda = tableView.dequeueReusableCell(withIdentifier: "celdaPagado") as! CeldaPagadoController
+            celda.lblEstado.text = pagados[indexPath.row].estado
+            celda.lblFecha.text = pagados[indexPath.row].fecha
+            
+            return celda
+            
+        }
     }
     
     @IBOutlet weak var tvContactos: UITableView!
+    @IBOutlet weak var tvPagado: UITableView!
     
     @IBOutlet weak var imgFondoPerfil: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tvContactos.backgroundColor = .clear
-        lblNombre.text = alumnos[0].nombre
-        lblMatricula.text = alumnos[0].matricula
-        lblCel.text = alumnos[0].carrera
-        lblCarrera.text = alumnos[0].carrera
-        lblDireccion.text = alumnos[0].direccion
-        lblCorreo.text = alumnos[0].correo
+        tvPagado.backgroundColor = .clear
+        lblNombre.text = alumno?.nombre
+        lblMatricula.text = alumno?.matricula
+        lblCel.text = alumno?.carrera
+        lblCarrera.text = alumno?.carrera
+        lblDireccion.text = alumno?.direccion
+        lblCorreo.text = alumno?.correo
                 
         
         imgFondoPerfil.layer.cornerRadius = 1.0
@@ -72,6 +93,10 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
         
         contactos.append(Contacto(nombre: "Marcela Hernández Delgado", cel: "6441172430", correo: "azalia0207@gmail.com", fondoC: "Morado", fotoC: "Contacto1"))
         contactos.append(Contacto(nombre: "Abisaid Manuel Peña Valdez", cel: "6441545187", correo: "abis_play99@gmail.com", fondoC: "Verde", fotoC: "Contacto2"))
+        
+        pagados.append(Pagado(estado: "Inscripción", fecha: "22 - Julio - 2022"))
+        pagados.append(Pagado(estado: "2da Inscripción", fecha: "28 - Julio - 2022"))
+        pagados.append(Pagado(estado: "3era Inscripción", fecha: "21 - Julio - 2022"))
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

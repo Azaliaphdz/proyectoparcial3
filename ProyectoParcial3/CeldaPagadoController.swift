@@ -5,4 +5,9 @@
 //  Created by Azalia on 08/11/22.
 //
 
-import Foundation
+import UIKit
+
+class CeldaPagadoController: UITableViewCell {
+    @IBOutlet weak var lblEstado: UILabel!
+    @IBOutlet weak var lblFecha: UILabel!
+}
