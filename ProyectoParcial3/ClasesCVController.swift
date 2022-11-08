@@ -16,8 +16,8 @@ class ClasesCVController: UIViewController {
     
     @IBOutlet weak var lblHola: UILabel!
     
-    var alumnos : [Alumno] = []
-    var alumno : Alumno?
+    var alumnos : [Contacto] = []
+    var alumno : Contacto?
     
     var clasesCV = ClasesCV.fetchClasesCV()
     
@@ -31,9 +31,9 @@ class ClasesCVController: UIViewController {
         super.viewDidLoad()
         //lblHola.text = hola
         
-        lblHola.text = alumno?.nombre
+        //lblHola.text = alumno?.nombre
         
-        alumnos.append(Alumno(nombre: "Hola, Azalia"))
+        //alumnos.append(Contacto(nombre: "Hola, Azalia"))
         
         //self.title = alumno?.nombre
         collectionView.backgroundColor = UIColor.clear.withAlphaComponent(0)

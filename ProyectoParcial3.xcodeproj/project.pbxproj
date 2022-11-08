@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		260DC5D129185A3C003622F0 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D029185A3C003622F0 /* Alumno.swift */; };
-		260DC5D329185CA1003622F0 /* AlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D229185CA1003622F0 /* AlumnoController.swift */; };
+		260DC5D129185A3C003622F0 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D029185A3C003622F0 /* Contacto.swift */; };
+		260DC5D329185CA1003622F0 /* ContactosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D229185CA1003622F0 /* ContactosController.swift */; };
 		268EAFB02918825300D8ADB2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFAF2918825300D8ADB2 /* Roboto-Bold.ttf */; };
 		268EAFB22918826100D8ADB2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB12918826100D8ADB2 /* Roboto-Regular.ttf */; };
 		268EAFB52918827600D8ADB2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB42918827600D8ADB2 /* Roboto-Medium.ttf */; };
 		268EAFB72918828100D8ADB2 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB62918828100D8ADB2 /* Roboto-Light.ttf */; };
 		268EAFB92918840600D8ADB2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB82918840600D8ADB2 /* Roboto-Black.ttf */; };
+		268EAFBB291A357400D8ADB2 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */; };
+		268EAFBD291A3D4A00D8ADB2 /* Pagado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */; };
+		268EAFBF291A3D5F00D8ADB2 /* PagadosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */; };
+		268EAFC1291A3D7500D8ADB2 /* CeldaPagadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */; };
+		268EAFC3291A3E4000D8ADB2 /* Actualizar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */; };
+		268EAFC5291A3E6600D8ADB2 /* ActualizarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */; };
+		268EAFC7291A3E7700D8ADB2 /* CeldaActualizarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */; };
 		269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */; };
 		269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBF291770E80088C162 /* ClasesCV.swift */; };
 		269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEC129178B540088C162 /* ClasesCVController.swift */; };
@@ -46,13 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		260DC5D029185A3C003622F0 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
-		260DC5D229185CA1003622F0 /* AlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoController.swift; sourceTree = "<group>"; };
+		260DC5D029185A3C003622F0 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		260DC5D229185CA1003622F0 /* ContactosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosController.swift; sourceTree = "<group>"; };
 		268EAFAF2918825300D8ADB2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		268EAFB12918826100D8ADB2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		268EAFB42918827600D8ADB2 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		268EAFB62918828100D8ADB2 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		268EAFB82918840600D8ADB2 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
+		268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagado.swift; sourceTree = "<group>"; };
+		268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagadosController.swift; sourceTree = "<group>"; };
+		268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPagadoController.swift; sourceTree = "<group>"; };
+		268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actualizar.swift; sourceTree = "<group>"; };
+		268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualizarController.swift; sourceTree = "<group>"; };
+		268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaActualizarController.swift; sourceTree = "<group>"; };
 		269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaClasesCV.swift; sourceTree = "<group>"; };
 		269FCEBF291770E80088C162 /* ClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCV.swift; sourceTree = "<group>"; };
 		269FCEC129178B540088C162 /* ClasesCVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCVController.swift; sourceTree = "<group>"; };
@@ -134,8 +148,15 @@
 				269FCEBF291770E80088C162 /* ClasesCV.swift */,
 				269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */,
 				269FCEC129178B540088C162 /* ClasesCVController.swift */,
-				260DC5D029185A3C003622F0 /* Alumno.swift */,
-				260DC5D229185CA1003622F0 /* AlumnoController.swift */,
+				260DC5D029185A3C003622F0 /* Contacto.swift */,
+				260DC5D229185CA1003622F0 /* ContactosController.swift */,
+				268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */,
+				268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */,
+				268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */,
+				268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */,
+				268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */,
+				268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */,
+				268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
@@ -293,14 +314,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260DC5D129185A3C003622F0 /* Alumno.swift in Sources */,
-				260DC5D329185CA1003622F0 /* AlumnoController.swift in Sources */,
+				268EAFBF291A3D5F00D8ADB2 /* PagadosController.swift in Sources */,
+				268EAFC3291A3E4000D8ADB2 /* Actualizar.swift in Sources */,
+				260DC5D129185A3C003622F0 /* Contacto.swift in Sources */,
+				268EAFC5291A3E6600D8ADB2 /* ActualizarController.swift in Sources */,
+				260DC5D329185CA1003622F0 /* ContactosController.swift in Sources */,
 				FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */,
 				FB738ED529155E1B00CE20CC /* AppDelegate.swift in Sources */,
 				FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */,
 				269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */,
+				268EAFC1291A3D7500D8ADB2 /* CeldaPagadoController.swift in Sources */,
 				269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */,
+				268EAFBD291A3D4A00D8ADB2 /* Pagado.swift in Sources */,
 				269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */,
+				268EAFBB291A357400D8ADB2 /* CeldaContactoController.swift in Sources */,
+				268EAFC7291A3E7700D8ADB2 /* CeldaActualizarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
