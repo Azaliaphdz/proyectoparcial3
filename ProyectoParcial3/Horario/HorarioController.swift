@@ -10,14 +10,12 @@ import UIKit
 class HorarioController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var horas = [Int]()
-    
+
     var horario = Horario.fetchHorario()
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        //horario.append(Horario(lun: "sda", mar: "fda", mie: "dcf", jue: "", vie: "as"))
         initTime()
-        
     
     }
     
@@ -30,7 +28,7 @@ class HorarioController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 71
+        return 58
     }
     
     
@@ -47,15 +45,13 @@ class HorarioController: UIViewController, UITableViewDelegate, UITableViewDataS
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaHorario") as! CeldaHorarioController
         let hora  = horas[indexPath.row]
         
-        celda.tiempo.text = formatHour(hora: hora)
+        celda.lblTiempo.text = formatHour(hora: hora)
         
-        celda.horario = Horario[indexPath.item]
-        
-        //celda.lun.text = horario[indexPath.row].lun
-        //celda.mar.text = horarios[indexPath.row].mar
-        //celda.mie.text = horarios[indexPath.row].mie
-        //celda.juev.text = horarios[indexPath.row].jue
-        //celda.vie.text = horarios[indexPath.row].vie
+        celda.lblLun.text = horario[indexPath.row].lun
+        celda.lblMar.text = horario[indexPath.row].mar
+        celda.lblMie.text = horario[indexPath.row].mie
+        celda.lblJue.text = horario[indexPath.row].jue
+        celda.lblVie.text = horario[indexPath.row].vie
         
         return celda
     }

@@ -330,15 +330,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaHorario" rowHeight="71" id="xcl-9F-UYa" customClass="CeldaHorarioController" customModule="ProyectoParcial3" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="390" height="71"/>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaHorario" rowHeight="58" id="xcl-9F-UYa" customClass="CeldaHorarioController" customModule="ProyectoParcial3" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xcl-9F-UYa" id="nsJ-RM-NK5">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="71"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="58"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYa-Si-EeD">
+                                                    <rect key="frame" x="20" y="21" width="59" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8vu-T8-UCU">
-                                                    <rect key="frame" x="87" y="11" width="283" height="107"/>
+                                                    <rect key="frame" x="87" y="0.0" width="283" height="107"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qdE-fr-jXc">
@@ -414,22 +421,15 @@
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYa-Si-EeD">
-                                                    <rect key="frame" x="20" y="21" width="59" height="24"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="juev" destination="hJC-u0-MLM" id="baD-nc-dZN"/>
-                                            <outlet property="lun" destination="my1-rC-3ZW" id="2nV-JR-BG2"/>
-                                            <outlet property="mar" destination="U5h-sw-FZO" id="YD8-bW-KUB"/>
-                                            <outlet property="mie" destination="D67-QD-urh" id="iBp-xO-pzD"/>
-                                            <outlet property="tiempo" destination="tYa-Si-EeD" id="6he-ag-iJe"/>
-                                            <outlet property="vie" destination="ydN-2f-aaX" id="Wz7-ta-NbX"/>
+                                            <outlet property="lblJue" destination="hJC-u0-MLM" id="wsv-QV-jkT"/>
+                                            <outlet property="lblLun" destination="my1-rC-3ZW" id="QfS-2G-5zU"/>
+                                            <outlet property="lblMar" destination="U5h-sw-FZO" id="k4u-oB-yXQ"/>
+                                            <outlet property="lblMie" destination="D67-QD-urh" id="6aD-ma-khd"/>
+                                            <outlet property="lblTiempo" destination="tYa-Si-EeD" id="Gca-4g-u7o"/>
+                                            <outlet property="lblVie" destination="ydN-2f-aaX" id="j66-vT-CiS"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

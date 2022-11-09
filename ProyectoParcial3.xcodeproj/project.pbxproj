@@ -118,6 +118,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		267C37EB291B95B5006DDECD /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				FB7459FB291A9F5E00A92D7A /* Alumno.swift */,
+				269FCEBF291770E80088C162 /* ClasesCV.swift */,
+				269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */,
+				269FCEC129178B540088C162 /* ClasesCVController.swift */,
+			);
+			path = Principal;
+			sourceTree = "<group>";
+		};
+		267C37EC291B95CE006DDECD /* Fuentes */ = {
+			isa = PBXGroup;
+			children = (
+				268EAFB12918826100D8ADB2 /* Roboto-Regular.ttf */,
+				268EAFB62918828100D8ADB2 /* Roboto-Light.ttf */,
+				268EAFB42918827600D8ADB2 /* Roboto-Medium.ttf */,
+				268EAFB82918840600D8ADB2 /* Roboto-Black.ttf */,
+				268EAFAF2918825300D8ADB2 /* Roboto-Bold.ttf */,
+			);
+			path = Fuentes;
+			sourceTree = "<group>";
+		};
+		267C37ED291B95E9006DDECD /* Contacto */ = {
+			isa = PBXGroup;
+			children = (
+				260DC5D029185A3C003622F0 /* Contacto.swift */,
+				260DC5D229185CA1003622F0 /* ContactosController.swift */,
+				268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */,
+			);
+			path = Contacto;
+			sourceTree = "<group>";
+		};
+		267C37EE291B95F8006DDECD /* Pagado */ = {
+			isa = PBXGroup;
+			children = (
+				268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */,
+				268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */,
+				268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */,
+				268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */,
+			);
+			path = Pagado;
+			sourceTree = "<group>";
+		};
+		267C37EF291B962D006DDECD /* Horario */ = {
+			isa = PBXGroup;
+			children = (
+				267C37E5291B744C006DDECD /* Horario.swift */,
+				267C37E9291B7464006DDECD /* CeldaHorarioController.swift */,
+				267C37E7291B7458006DDECD /* HorarioController.swift */,
+			);
+			path = Horario;
+			sourceTree = "<group>";
+		};
 		FB738EC829155E1B00CE20CC = {
 			isa = PBXGroup;
 			children = (
@@ -141,11 +195,11 @@
 		FB738ED329155E1B00CE20CC /* ProyectoParcial3 */ = {
 			isa = PBXGroup;
 			children = (
-				268EAFB12918826100D8ADB2 /* Roboto-Regular.ttf */,
-				268EAFB62918828100D8ADB2 /* Roboto-Light.ttf */,
-				268EAFB42918827600D8ADB2 /* Roboto-Medium.ttf */,
-				268EAFB82918840600D8ADB2 /* Roboto-Black.ttf */,
-				268EAFAF2918825300D8ADB2 /* Roboto-Bold.ttf */,
+				267C37EC291B95CE006DDECD /* Fuentes */,
+				267C37EB291B95B5006DDECD /* Principal */,
+				267C37ED291B95E9006DDECD /* Contacto */,
+				267C37EE291B95F8006DDECD /* Pagado */,
+				267C37EF291B962D006DDECD /* Horario */,
 				FB738ED429155E1B00CE20CC /* AppDelegate.swift */,
 				FB738ED629155E1B00CE20CC /* SceneDelegate.swift */,
 				FB738ED829155E1B00CE20CC /* ViewController.swift */,
@@ -153,22 +207,8 @@
 				FB738EDD29155E1C00CE20CC /* Assets.xcassets */,
 				FB738EDF29155E1C00CE20CC /* LaunchScreen.storyboard */,
 				FB738EE229155E1C00CE20CC /* Info.plist */,
-				269FCEBF291770E80088C162 /* ClasesCV.swift */,
-				269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */,
-				269FCEC129178B540088C162 /* ClasesCVController.swift */,
-				260DC5D029185A3C003622F0 /* Contacto.swift */,
-				260DC5D229185CA1003622F0 /* ContactosController.swift */,
-				268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */,
-				268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */,
-				268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */,
-				268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */,
 				268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */,
-				268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */,
 				268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */,
-				FB7459FB291A9F5E00A92D7A /* Alumno.swift */,
-				267C37E5291B744C006DDECD /* Horario.swift */,
-				267C37E7291B7458006DDECD /* HorarioController.swift */,
-				267C37E9291B7464006DDECD /* CeldaHorarioController.swift */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
