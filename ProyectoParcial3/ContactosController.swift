@@ -29,7 +29,7 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
        
        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
            if tableView == tvContactos{
-               return 102
+               return 86
            }else {
                return 41
            }
@@ -52,12 +52,18 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
             
             //celda.contentView.backgroundColor = UIColor(red: 226/255, green: 217/255, blue: 250/255, alpha: 1)
             
+            //celda.viewFondo.backgroundColor = .clear
+            //celda.contentView.backgroundColor = UIColor(white: 1, alpha: 0.2)
+            celda.viewFondo.layer.cornerRadius = celda.viewFondo.frame.height / 8
+            
             celda.lblNombre.text = contactos[indexPath.row].nombre
             celda.lblCel.text = contactos[indexPath.row].cel
             celda.lblCorreo.text = contactos[indexPath.row].correo
             celda.imgFondoC.image = UIImage(named: contactos[indexPath.row].fondoC)
             celda.imgFotoC.image = UIImage(named: contactos[indexPath.row].fotoC)
+            
             return celda
+            
         } else {
             let celda = tableView.dequeueReusableCell(withIdentifier: "celdaPagado") as! CeldaPagadoController
             celda.lblEstado.text = pagados[indexPath.row].estado
@@ -77,6 +83,10 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
         super.viewDidLoad()
         tvContactos.backgroundColor = .clear
         tvPagado.backgroundColor = .clear
+        
+        tvContactos.separatorStyle = .none
+        tvContactos.showsVerticalScrollIndicator = false
+        
         lblNombre.text = alumno?.nombre
         lblMatricula.text = alumno?.matricula
         lblCel.text = alumno?.carrera
@@ -103,7 +113,6 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
          let destino = segue.destination as! ActualizarController
          destino.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
          destino.callBackActualizar = actualizarContacto
-
      }
     
     func nuevoContacto(contacto : Contacto) {
@@ -114,4 +123,5 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
     func actualizarContacto(){
         tvContactos.reloadData()
     }
+    
 }

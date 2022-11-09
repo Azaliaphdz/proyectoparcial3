@@ -15,4 +15,5 @@ class CeldaContactoController : UITableViewCell {
     @IBOutlet weak var imgFondoC: UIImageView!
     @IBOutlet weak var imgFotoC: UIImageView!
     
+    @IBOutlet weak var viewFondo: UIView!
 }
