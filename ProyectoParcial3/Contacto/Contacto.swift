@@ -8,14 +8,14 @@
 class Contacto  {
     var nombre: String
     var cel: String
-    var correo: String
+    var parentesco: String
     var fondoC: String
     var fotoC: String
     
-    init(nombre: String, cel: String, correo: String, fondoC: String, fotoC: String) {
+    init(nombre: String, cel: String, parentesco: String, fondoC: String, fotoC: String) {
         self.nombre = nombre
         self.cel = cel
-        self.correo = correo
+        self.parentesco = parentesco
         self.fondoC = fondoC
         self.fotoC = fotoC
     }

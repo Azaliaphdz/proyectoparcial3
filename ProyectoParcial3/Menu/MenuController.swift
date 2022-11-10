@@ -20,7 +20,7 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 205
+        return 187
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -47,8 +47,12 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var lblNombre: UILabel!
     @IBOutlet weak var lblPrecio: UILabel!
     
+    @IBOutlet weak var tvBebidas: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tvBebidas.separatorStyle = .none
+        //tvBebidas.showsVerticalScrollIndicator = false
         
         lblNombre.text = especial?.nombre
         //imgEspecial.image = UIImage(named: "\(especial?.fotoEspecial)")
@@ -56,6 +60,10 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         collectionView2?.dataSource = self
         collectionView2?.delegate = self
+        
+        bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
+        
+        bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
         
         bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
         

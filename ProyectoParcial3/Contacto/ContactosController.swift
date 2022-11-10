@@ -58,7 +58,7 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
             
             celda.lblNombre.text = contactos[indexPath.row].nombre
             celda.lblCel.text = contactos[indexPath.row].cel
-            celda.lblCorreo.text = contactos[indexPath.row].correo
+            celda.lblParentesco.text = contactos[indexPath.row].parentesco
             celda.imgFondoC.image = UIImage(named: contactos[indexPath.row].fondoC)
             celda.imgFotoC.image = UIImage(named: contactos[indexPath.row].fotoC)
             
@@ -101,8 +101,8 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
         imgFondoPerfil.layer.shadowOffset = CGSize(width: 5, height: 10)
         imgFondoPerfil.clipsToBounds = false
         
-        contactos.append(Contacto(nombre: "Marcela Hernández Delgado", cel: "6441172430", correo: "azalia0207@gmail.com", fondoC: "Morado", fotoC: "Contacto1"))
-        contactos.append(Contacto(nombre: "Abisaid Manuel Peña Valdez", cel: "6441545187", correo: "abis_play99@gmail.com", fondoC: "Verde", fotoC: "Contacto2"))
+        contactos.append(Contacto(nombre: "Marcela Hernández Delgado", cel: "6441172430", parentesco: "Madre", fondoC: "Morado", fotoC: "Contacto1"))
+        contactos.append(Contacto(nombre: "Abisaid Manuel Peña Valdez", cel: "6441545187", parentesco: "Padre", fondoC: "Verde", fotoC: "Contacto2"))
         
         pagados.append(Pagado(estado: "Inscripción", fecha: "22 - Julio - 2022"))
         pagados.append(Pagado(estado: "2da Inscripción", fecha: "28 - Julio - 2022"))

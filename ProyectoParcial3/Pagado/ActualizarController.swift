@@ -13,7 +13,7 @@ class ActualizarController: UIViewController {
     
     var nombre: String?
     var cel: String?
-    var correo: String?
+    var parentesco: String?
     var fondoC: String?
     var fotoC: String?
     
@@ -21,7 +21,7 @@ class ActualizarController: UIViewController {
     
     @IBOutlet weak var txtNombre: UITextField!
     @IBOutlet weak var txtCel: UITextField!
-    @IBOutlet weak var txtCorreo: UITextField!
+    @IBOutlet weak var txtParentesco: UITextField!
     
     @IBOutlet weak var txtFondoC: UITextField!
     @IBOutlet weak var txtFotoC: UITextField!
@@ -32,7 +32,7 @@ class ActualizarController: UIViewController {
         if contacto != nil {
             txtNombre.text = contacto!.nombre
             txtCel.text = contacto!.cel
-            txtCorreo.text = contacto!.correo
+            txtParentesco.text = contacto!.parentesco
             
             txtFondoC.text = contacto!.fondoC
             txtFotoC.text = contacto!.fotoC
@@ -44,7 +44,7 @@ class ActualizarController: UIViewController {
         if callBackActualizar != nil {
             contacto?.nombre = txtNombre.text!
             contacto?.cel = txtCel.text!
-            contacto?.correo = txtCorreo.text!
+            contacto?.parentesco = txtParentesco.text!
             
             contacto?.fondoC = txtFondoC.text!
             contacto?.fotoC = txtFotoC.text!

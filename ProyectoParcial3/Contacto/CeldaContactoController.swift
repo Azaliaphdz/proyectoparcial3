@@ -10,7 +10,7 @@ import UIKit
 class CeldaContactoController : UITableViewCell {
     @IBOutlet weak var lblNombre: UILabel!
     @IBOutlet weak var lblCel: UILabel!
-    @IBOutlet weak var lblCorreo: UILabel!
+    @IBOutlet weak var lblParentesco: UILabel!
     
     @IBOutlet weak var imgFondoC: UIImageView!
     @IBOutlet weak var imgFotoC: UIImageView!
