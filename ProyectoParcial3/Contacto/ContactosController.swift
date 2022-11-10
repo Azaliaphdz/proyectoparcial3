@@ -89,7 +89,7 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
         
         lblNombre.text = alumno?.nombre
         lblMatricula.text = alumno?.matricula
-        lblCel.text = alumno?.carrera
+        lblCel.text = alumno?.cel
         lblCarrera.text = alumno?.carrera
         lblDireccion.text = alumno?.direccion
         lblCorreo.text = alumno?.correo

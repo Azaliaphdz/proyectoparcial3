@@ -51,11 +51,8 @@ class ClasesCVController: UIViewController {
         //layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
         //collectionView?.contentInset = UIEdgeInsets(top: insetY, left: insetX, bottom: insetY, right: insetX)
         
-        
-        
         collectionView?.dataSource = self
         collectionView?.delegate = self
-        
         
         //Sombras
         //imgFondoHorario.layer.cornerRadius = 3.0
@@ -81,8 +78,6 @@ class ClasesCVController: UIViewController {
         imgFondoBlanco3.layer.shadowOpacity = 0.4
         imgFondoBlanco3.layer.shadowOffset = CGSize(width: 5, height: 10)
         imgFondoBlanco3.clipsToBounds = false
-        
-        
         
         
     }

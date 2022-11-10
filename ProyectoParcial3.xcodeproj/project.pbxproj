@@ -12,6 +12,12 @@
 		267C37E6291B744C006DDECD /* Horario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37E5291B744C006DDECD /* Horario.swift */; };
 		267C37E8291B7458006DDECD /* HorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37E7291B7458006DDECD /* HorarioController.swift */; };
 		267C37EA291B7464006DDECD /* CeldaHorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37E9291B7464006DDECD /* CeldaHorarioController.swift */; };
+		267C37F3291BA0F1006DDECD /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37F2291BA0F1006DDECD /* MenuController.swift */; };
+		267C37F6291BA13D006DDECD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37F5291BA13D006DDECD /* Menu.swift */; };
+		267C37F8291BA14B006DDECD /* CeldaMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37F7291BA14B006DDECD /* CeldaMenuController.swift */; };
+		267C37FA291BA165006DDECD /* Bebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37F9291BA165006DDECD /* Bebida.swift */; };
+		267C37FC291BA17E006DDECD /* CeldaBebidaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37FB291BA17E006DDECD /* CeldaBebidaController.swift */; };
+		267C3803291BA872006DDECD /* Especial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C3802291BA872006DDECD /* Especial.swift */; };
 		268EAFB02918825300D8ADB2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFAF2918825300D8ADB2 /* Roboto-Bold.ttf */; };
 		268EAFB22918826100D8ADB2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB12918826100D8ADB2 /* Roboto-Regular.ttf */; };
 		268EAFB52918827600D8ADB2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB42918827600D8ADB2 /* Roboto-Medium.ttf */; };
@@ -19,17 +25,13 @@
 		268EAFB92918840600D8ADB2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268EAFB82918840600D8ADB2 /* Roboto-Black.ttf */; };
 		268EAFBB291A357400D8ADB2 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */; };
 		268EAFBD291A3D4A00D8ADB2 /* Pagado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */; };
-		268EAFBF291A3D5F00D8ADB2 /* PagadosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */; };
 		268EAFC1291A3D7500D8ADB2 /* CeldaPagadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */; };
-		268EAFC3291A3E4000D8ADB2 /* Actualizar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */; };
 		268EAFC5291A3E6600D8ADB2 /* ActualizarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */; };
-		268EAFC7291A3E7700D8ADB2 /* CeldaActualizarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */; };
 		269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */; };
 		269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEBF291770E80088C162 /* ClasesCV.swift */; };
 		269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FCEC129178B540088C162 /* ClasesCVController.swift */; };
 		FB738ED529155E1B00CE20CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738ED429155E1B00CE20CC /* AppDelegate.swift */; };
 		FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738ED629155E1B00CE20CC /* SceneDelegate.swift */; };
-		FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738ED829155E1B00CE20CC /* ViewController.swift */; };
 		FB738EDC29155E1B00CE20CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB738EDA29155E1B00CE20CC /* Main.storyboard */; };
 		FB738EDE29155E1C00CE20CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB738EDD29155E1C00CE20CC /* Assets.xcassets */; };
 		FB738EE129155E1C00CE20CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB738EDF29155E1C00CE20CC /* LaunchScreen.storyboard */; };
@@ -62,6 +64,12 @@
 		267C37E5291B744C006DDECD /* Horario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horario.swift; sourceTree = "<group>"; };
 		267C37E7291B7458006DDECD /* HorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioController.swift; sourceTree = "<group>"; };
 		267C37E9291B7464006DDECD /* CeldaHorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaHorarioController.swift; sourceTree = "<group>"; };
+		267C37F2291BA0F1006DDECD /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		267C37F5291BA13D006DDECD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		267C37F7291BA14B006DDECD /* CeldaMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMenuController.swift; sourceTree = "<group>"; };
+		267C37F9291BA165006DDECD /* Bebida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebida.swift; sourceTree = "<group>"; };
+		267C37FB291BA17E006DDECD /* CeldaBebidaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaBebidaController.swift; sourceTree = "<group>"; };
+		267C3802291BA872006DDECD /* Especial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Especial.swift; sourceTree = "<group>"; };
 		268EAFAF2918825300D8ADB2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		268EAFB12918826100D8ADB2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		268EAFB42918827600D8ADB2 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -69,18 +77,14 @@
 		268EAFB82918840600D8ADB2 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		268EAFBA291A357400D8ADB2 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
 		268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagado.swift; sourceTree = "<group>"; };
-		268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagadosController.swift; sourceTree = "<group>"; };
 		268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPagadoController.swift; sourceTree = "<group>"; };
-		268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actualizar.swift; sourceTree = "<group>"; };
 		268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualizarController.swift; sourceTree = "<group>"; };
-		268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaActualizarController.swift; sourceTree = "<group>"; };
 		269FCEBD29176E0F0088C162 /* CeldaClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaClasesCV.swift; sourceTree = "<group>"; };
 		269FCEBF291770E80088C162 /* ClasesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCV.swift; sourceTree = "<group>"; };
 		269FCEC129178B540088C162 /* ClasesCVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCVController.swift; sourceTree = "<group>"; };
 		FB738ED129155E1B00CE20CC /* ProyectoParcial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB738ED429155E1B00CE20CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB738ED629155E1B00CE20CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB738ED829155E1B00CE20CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB738EDB29155E1B00CE20CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB738EDD29155E1C00CE20CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB738EE029155E1C00CE20CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -155,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				268EAFBC291A3D4A00D8ADB2 /* Pagado.swift */,
-				268EAFBE291A3D5F00D8ADB2 /* PagadosController.swift */,
 				268EAFC0291A3D7500D8ADB2 /* CeldaPagadoController.swift */,
 				268EAFC4291A3E6600D8ADB2 /* ActualizarController.swift */,
 			);
@@ -172,10 +175,51 @@
 			path = Horario;
 			sourceTree = "<group>";
 		};
+		267C37F4291BA114006DDECD /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				267C37F2291BA0F1006DDECD /* MenuController.swift */,
+				267C37F5291BA13D006DDECD /* Menu.swift */,
+				267C37F7291BA14B006DDECD /* CeldaMenuController.swift */,
+				267C37F9291BA165006DDECD /* Bebida.swift */,
+				267C37FB291BA17E006DDECD /* CeldaBebidaController.swift */,
+				267C3802291BA872006DDECD /* Especial.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		267C37FF291BA241006DDECD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FB738EDD29155E1C00CE20CC /* Assets.xcassets */,
+				267C37EC291B95CE006DDECD /* Fuentes */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		267C3800291BA257006DDECD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB738ED429155E1B00CE20CC /* AppDelegate.swift */,
+				FB738ED629155E1B00CE20CC /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		267C3801291BA264006DDECD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB738EDA29155E1B00CE20CC /* Main.storyboard */,
+				FB738EDF29155E1C00CE20CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		FB738EC829155E1B00CE20CC = {
 			isa = PBXGroup;
 			children = (
 				FB738ED329155E1B00CE20CC /* ProyectoParcial3 */,
+				FB738EE229155E1C00CE20CC /* Info.plist */,
 				FB738EEA29155E1C00CE20CC /* ProyectoParcial3Tests */,
 				FB738EF429155E1C00CE20CC /* ProyectoParcial3UITests */,
 				FB738ED229155E1B00CE20CC /* Products */,
@@ -195,20 +239,14 @@
 		FB738ED329155E1B00CE20CC /* ProyectoParcial3 */ = {
 			isa = PBXGroup;
 			children = (
-				267C37EC291B95CE006DDECD /* Fuentes */,
+				267C3801291BA264006DDECD /* Storyboards */,
+				267C37FF291BA241006DDECD /* Assets */,
+				267C3800291BA257006DDECD /* Delegate */,
 				267C37EB291B95B5006DDECD /* Principal */,
 				267C37ED291B95E9006DDECD /* Contacto */,
 				267C37EE291B95F8006DDECD /* Pagado */,
 				267C37EF291B962D006DDECD /* Horario */,
-				FB738ED429155E1B00CE20CC /* AppDelegate.swift */,
-				FB738ED629155E1B00CE20CC /* SceneDelegate.swift */,
-				FB738ED829155E1B00CE20CC /* ViewController.swift */,
-				FB738EDA29155E1B00CE20CC /* Main.storyboard */,
-				FB738EDD29155E1C00CE20CC /* Assets.xcassets */,
-				FB738EDF29155E1C00CE20CC /* LaunchScreen.storyboard */,
-				FB738EE229155E1C00CE20CC /* Info.plist */,
-				268EAFC2291A3E4000D8ADB2 /* Actualizar.swift */,
-				268EAFC6291A3E7700D8ADB2 /* CeldaActualizarController.swift */,
+				267C37F4291BA114006DDECD /* Menu */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";
@@ -366,25 +404,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268EAFBF291A3D5F00D8ADB2 /* PagadosController.swift in Sources */,
-				268EAFC3291A3E4000D8ADB2 /* Actualizar.swift in Sources */,
 				260DC5D129185A3C003622F0 /* Contacto.swift in Sources */,
 				FB7459FC291A9F5E00A92D7A /* Alumno.swift in Sources */,
 				268EAFC5291A3E6600D8ADB2 /* ActualizarController.swift in Sources */,
 				260DC5D329185CA1003622F0 /* ContactosController.swift in Sources */,
-				FB738ED929155E1B00CE20CC /* ViewController.swift in Sources */,
 				FB738ED529155E1B00CE20CC /* AppDelegate.swift in Sources */,
+				267C37F6291BA13D006DDECD /* Menu.swift in Sources */,
 				FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */,
 				269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */,
 				268EAFC1291A3D7500D8ADB2 /* CeldaPagadoController.swift in Sources */,
+				267C37FA291BA165006DDECD /* Bebida.swift in Sources */,
+				267C37F3291BA0F1006DDECD /* MenuController.swift in Sources */,
 				267C37E6291B744C006DDECD /* Horario.swift in Sources */,
+				267C37FC291BA17E006DDECD /* CeldaBebidaController.swift in Sources */,
+				267C37F8291BA14B006DDECD /* CeldaMenuController.swift in Sources */,
 				267C37EA291B7464006DDECD /* CeldaHorarioController.swift in Sources */,
 				269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */,
 				268EAFBD291A3D4A00D8ADB2 /* Pagado.swift in Sources */,
 				267C37E8291B7458006DDECD /* HorarioController.swift in Sources */,
 				269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */,
+				267C3803291BA872006DDECD /* Especial.swift in Sources */,
 				268EAFBB291A357400D8ADB2 /* CeldaContactoController.swift in Sources */,
-				268EAFC7291A3E7700D8ADB2 /* CeldaActualizarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
