@@ -13,7 +13,7 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var menu = Menu.fetchMenu()
     var bebidas: [Bebida] = []
     
-    var especial: Especial? = Especial(fotoEspecial: "Rosa", nombre: "Boneless", precio: "$70")
+
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return bebidas.count
@@ -49,14 +49,16 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tvBebidas: UITableView!
     
+    var especial: Especial = Especial(fotoEspecial: "Rosa", nombre: "Boneless", precio: "$70")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tvBebidas.separatorStyle = .none
         //tvBebidas.showsVerticalScrollIndicator = false
         
-        lblNombre.text = especial?.nombre
-        //imgEspecial.image = UIImage(named: "\(especial?.fotoEspecial)")
-        lblPrecio.text = especial?.precio
+        lblNombre.text = especial.nombre
+        imgEspecial.image = UIImage(named: especial.fotoEspecial)
+        lblPrecio.text = especial.precio
         
         collectionView2?.dataSource = self
         collectionView2?.delegate = self

@@ -41,6 +41,7 @@
 		FB738EF629155E1C00CE20CC /* ProyectoParcial3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738EF529155E1C00CE20CC /* ProyectoParcial3UITests.swift */; };
 		FB738EF829155E1C00CE20CC /* ProyectoParcial3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738EF729155E1C00CE20CC /* ProyectoParcial3UITestsLaunchTests.swift */; };
 		FB7459FC291A9F5E00A92D7A /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7459FB291A9F5E00A92D7A /* Alumno.swift */; };
+		FB79643F291E957B00675401 /* Evaluacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB79643E291E957B00675401 /* Evaluacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		FB738EF529155E1C00CE20CC /* ProyectoParcial3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITests.swift; sourceTree = "<group>"; };
 		FB738EF729155E1C00CE20CC /* ProyectoParcial3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB7459FB291A9F5E00A92D7A /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		FB79643E291E957B00675401 /* Evaluacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evaluacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				267A3056291DE93600544754 /* EvaluacionController.swift */,
 				267A3058291DEF5000544754 /* RespuestasController.swift */,
+				FB79643E291E957B00675401 /* Evaluacion.swift */,
 			);
 			path = "Evaluacion Docente";
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				FB738ED729155E1B00CE20CC /* SceneDelegate.swift in Sources */,
 				269FCEC229178B540088C162 /* ClasesCVController.swift in Sources */,
 				267A3057291DE93600544754 /* EvaluacionController.swift in Sources */,
+				FB79643F291E957B00675401 /* Evaluacion.swift in Sources */,
 				268EAFC1291A3D7500D8ADB2 /* CeldaPagadoController.swift in Sources */,
 				267C37FA291BA165006DDECD /* Bebida.swift in Sources */,
 				267C37F3291BA0F1006DDECD /* MenuController.swift in Sources */,

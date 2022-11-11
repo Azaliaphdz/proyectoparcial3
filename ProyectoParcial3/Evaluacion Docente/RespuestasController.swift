@@ -10,12 +10,13 @@ import UIKit
 class RespuestasController: UIViewController {
     
     @IBOutlet weak var lblEv1: UILabel!
-    
+    var evaluaciones: [Evaluacion] = []
     
     override func viewDidLoad(){
         super.viewDidLoad()
         
-        lblEv1.text = EvaluacionController.evaluacion?
+       // lblEv1.text = evaluaciones.
+        
     }
     
     
