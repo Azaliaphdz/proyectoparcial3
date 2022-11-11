@@ -1062,7 +1062,7 @@
         <!--Evaluación docente-->
         <scene sceneID="eDE-Pl-WOQ">
             <objects>
-                <viewController id="w9P-0K-CPH" sceneMemberID="viewController">
+                <viewController id="w9P-0K-CPH" customClass="EvaluacionController" customModule="ProyectoParcial3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eg7-zr-uJt">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1220,6 +1220,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Evaluación docente" style="editor" id="09V-H7-MeT"/>
+                    <connections>
+                        <outlet property="scEvaluacion1" destination="Og7-Uf-PZG" id="6vp-vY-C3c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUC-ng-FuX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1228,7 +1231,7 @@
         <!--Resultado-->
         <scene sceneID="ah4-fG-jtx">
             <objects>
-                <viewController id="yJi-hq-9Uw" sceneMemberID="viewController">
+                <viewController id="yJi-hq-9Uw" customClass="RespuestasController" customModule="ProyectoParcial3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LpH-mY-hyQ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1364,6 +1367,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Resultado" style="editor" id="Tff-21-ktM"/>
+                    <connections>
+                        <outlet property="lblEv1" destination="Klm-yh-sYS" id="vu5-6z-LYl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WfX-9A-NAS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

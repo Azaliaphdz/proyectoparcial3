@@ -21,8 +21,6 @@ class ClasesCVController: UIViewController {
     
     var clasesCV = ClasesCV.fetchClasesCV()
     
-    //var hola = "¡Hola!, "
-    
     var hola: String?
     
     //let cellScaling: CGFloat = 0.85
