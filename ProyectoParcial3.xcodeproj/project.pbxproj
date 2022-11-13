@@ -138,6 +138,20 @@
 			path = "Evaluacion Docente";
 			sourceTree = "<group>";
 		};
+		267A305E2921703000544754 /* Calendario de Pagos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Calendario de Pagos";
+			sourceTree = "<group>";
+		};
+		267A305F2921704E00544754 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clases;
+			sourceTree = "<group>";
+		};
 		267C37EB291B95B5006DDECD /* Principal */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +278,8 @@
 				267C37EF291B962D006DDECD /* Horario */,
 				267C37F4291BA114006DDECD /* Menu */,
 				267A3055291DE8FC00544754 /* Evaluacion Docente */,
+				267A305F2921704E00544754 /* Clases */,
+				267A305E2921703000544754 /* Calendario de Pagos */,
 			);
 			path = ProyectoParcial3;
 			sourceTree = "<group>";

@@ -20,7 +20,7 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 187
+        return 167
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
