@@ -1062,7 +1062,7 @@
         <!--Evaluación docente-->
         <scene sceneID="eDE-Pl-WOQ">
             <objects>
-                <viewController id="w9P-0K-CPH" customClass="EvaluacionController" customModule="ProyectoParcial3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="w9P-0K-CPH" customClass="EvaluacionDocenteController" customModule="ProyectoParcial3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eg7-zr-uJt">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1157,26 +1157,6 @@
                                     <segment title="5"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1z-Mw-0ZZ">
-                                <rect key="frame" x="267" y="759" width="107" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.347104409" green="0.39793260050000001" blue="0.77914114099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Enviar">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="16"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.95021206140000003" green="0.40374863150000001" blue="0.96205931899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="yJi-hq-9Uw" kind="show" identifier="toGoRespuestas" id="0s7-MJ-Rgk"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El maestro es respetuoso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gos-TZ-7L0">
                                 <rect key="frame" x="16" y="415" width="182" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1215,14 +1195,39 @@
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1z-Mw-0ZZ">
+                                <rect key="frame" x="267" y="754" width="107" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.347104409" green="0.39793260050000001" blue="0.77914114099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Enviar">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="16"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.95021206140000003" green="0.40374863150000001" blue="0.96205931899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yJi-hq-9Uw" kind="show" identifier="goToRespuestas" id="8sf-rp-4Fg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z9o-oe-sKF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Evaluación docente" style="editor" id="09V-H7-MeT"/>
                     <connections>
-                        <outlet property="btnEnviar" destination="r1z-Mw-0ZZ" id="PmF-pF-aSj"/>
-                        <outlet property="scEvaluacion1" destination="Og7-Uf-PZG" id="6vp-vY-C3c"/>
+                        <outlet property="scEvaluacion1" destination="Og7-Uf-PZG" id="P6x-zZ-wyV"/>
+                        <outlet property="scEvaluacion2" destination="m75-jz-C4Q" id="fGF-eN-0V1"/>
+                        <outlet property="scEvaluacion3" destination="nFz-Lk-Sjx" id="LcX-WC-0Pb"/>
+                        <outlet property="scEvaluacion4" destination="cZB-ga-4y3" id="EjL-YC-2Yv"/>
+                        <outlet property="scEvaluacion5" destination="YC1-uq-CCa" id="Ydu-rc-wZE"/>
+                        <outlet property="scEvaluacion6" destination="hmS-Wo-k2B" id="ZRE-Bi-Vgv"/>
+                        <outlet property="txtComentario" destination="VVt-lS-ujX" id="PAf-ex-hAL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUC-ng-FuX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1339,23 +1344,6 @@
                                 <rect key="frame" x="75" y="146" width="240" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQz-ay-TmS">
-                                <rect key="frame" x="251" y="665" width="107" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.347104409" green="0.39793260050000001" blue="0.77914114099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Inicio">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="16"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.95021206140000003" green="0.40374863150000001" blue="0.96205931899999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gracias por responder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37x-qy-A7O">
                                 <rect key="frame" x="16" y="105" width="199" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1369,7 +1357,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Resultado" style="editor" id="Tff-21-ktM"/>
                     <connections>
+                        <outlet property="lblComentario" destination="yT4-V2-w8V" id="PXq-eu-nZ7"/>
                         <outlet property="lblEv1" destination="Klm-yh-sYS" id="vu5-6z-LYl"/>
+                        <outlet property="lblEv2" destination="2ed-bU-ID4" id="Dsd-6s-6jr"/>
+                        <outlet property="lblEv3" destination="QZH-hi-38C" id="rWf-sC-aij"/>
+                        <outlet property="lblEv4" destination="fQv-of-gzO" id="poN-qd-hKT"/>
+                        <outlet property="lblEv5" destination="IsH-QD-B7i" id="ohl-qw-zVW"/>
+                        <outlet property="lblEv6" destination="Hgr-hs-fbU" id="Sdu-0w-mmz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WfX-9A-NAS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
