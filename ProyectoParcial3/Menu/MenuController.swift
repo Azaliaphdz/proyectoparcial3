@@ -10,6 +10,8 @@ import UIKit
 class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     @IBOutlet weak var collectionView2: UICollectionView!
     
+    @IBOutlet weak var imgFondoEspecial: UIImageView!
+    
     var menu = Menu.fetchMenu()
     var bebidas: [Bebida] = []
     
@@ -49,12 +51,18 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tvBebidas: UITableView!
     
-    var especial: Especial = Especial(fotoEspecial: "Rosa", nombre: "Boneless", precio: "$70")
+    var especial: Especial = Especial(fotoEspecial: "boneless", nombre: "Boneless", precio: "$70")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tvBebidas.separatorStyle = .none
         //tvBebidas.showsVerticalScrollIndicator = false
+        
+        imgFondoEspecial.layer.cornerRadius = 1.0
+        imgFondoEspecial.layer.shadowRadius = 10.0
+        imgFondoEspecial.layer.shadowOpacity = 0.4
+        imgFondoEspecial.layer.shadowOffset = CGSize(width: 5, height: 10)
+        imgFondoEspecial.clipsToBounds = false
         
         lblNombre.text = especial.nombre
         imgEspecial.image = UIImage(named: especial.fotoEspecial)
@@ -63,13 +71,7 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
         collectionView2?.dataSource = self
         collectionView2?.delegate = self
         
-        bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
-        
-        bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
-        
-        bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
-        
-        bebidas.append(Bebida(fotoBebida: "Morado", nombreBebida: "Chocomilk", precioBebida: "$71", fotoBebida2: "Verde", nombreBebida2: "Jugo", precioBebida2: "$44"))
+        bebidas.append(Bebida(fotoBebida: "cafe", nombreBebida: "Café", precioBebida: "$71", fotoBebida2: "horchata2", nombreBebida2: "Horchata", precioBebida2: "$22"))
     
     }
 
