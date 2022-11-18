@@ -8,7 +8,7 @@
 import UIKit
 
 class ContactosController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    var contactos : [Contacto] = []
+    var contactos : [Contacto]?
     var pagados: [Pagado] = []
     
     var alumno: Alumno? = Alumno(nombre: "Azalia", matricula: "199229", carrera: "Ing. Producción Multimedia", direccion: "California #1903 sur", cel: "6441545187", correo: "azaliaphdz@hotmail.com")
@@ -41,7 +41,7 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
        }
        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
            if tableView == tvContactos{
-               return contactos.count
+               return contactos!.count
            }
            return pagados.count
        }
@@ -56,11 +56,11 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
             //celda.contentView.backgroundColor = UIColor(white: 1, alpha: 0.2)
             celda.viewFondo.layer.cornerRadius = celda.viewFondo.frame.height / 8
             
-            celda.lblNombre.text = contactos[indexPath.row].nombre
-            celda.lblCel.text = contactos[indexPath.row].cel
-            celda.lblParentesco.text = contactos[indexPath.row].parentesco
-            celda.imgFondoC.image = UIImage(named: contactos[indexPath.row].fondoC)
-            celda.imgFotoC.image = UIImage(named: contactos[indexPath.row].fotoC)
+            celda.lblNombre.text = contactos![indexPath.row].nombre
+            celda.lblCel.text = contactos![indexPath.row].cel
+            celda.lblParentesco.text = contactos![indexPath.row].parentesco
+            celda.imgFondoC.image = UIImage(named: contactos![indexPath.row].fondoC)
+            celda.imgFotoC.image = UIImage(named: contactos![indexPath.row].fotoC)
             
             return celda
             
@@ -100,9 +100,7 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
         imgFondoPerfil.layer.shadowOpacity = 0.4
         imgFondoPerfil.layer.shadowOffset = CGSize(width: 5, height: 10)
         imgFondoPerfil.clipsToBounds = false
-        
-        contactos.append(Contacto(nombre: "Marcela Hernández Delgado", cel: "6441172430", parentesco: "Madre", fondoC: "Morado", fotoC: "Contacto1"))
-        contactos.append(Contacto(nombre: "Abisaid Manuel Peña Valdez", cel: "6441545187", parentesco: "Padre", fondoC: "Verde", fotoC: "Contacto2"))
+    
         
         pagados.append(Pagado(estado: "Inscripción", fecha: "22 - Julio - 2022"))
         pagados.append(Pagado(estado: "2da Inscripción", fecha: "28 - Julio - 2022"))
@@ -112,13 +110,12 @@ class ContactosController: UIViewController, UITableViewDelegate, UITableViewDat
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToActualizar" {
              let destino = segue.destination as! ActualizarController
-             destino.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
+             destino.contacto = contactos![tvContactos.indexPathForSelectedRow!.row]
              destino.callBackActualizar = actualizarContacto
+        } else if segue.identifier == "goToActualizar" {
+            let destino = segue.destination as! ContactosController
+            destino.contactos = contactos
         }
-        /*if segue.identifier == "goToRespuestas" {
-             let destino = segue.destination as! RespuestasController
-             destino.evaluacion = evaluacion
-        }*/
      }
     
     func actualizarContacto(){

@@ -27,8 +27,6 @@ class ClasesCV {
             ClasesCV(title: "Fotografía", featuredImage: UIImage(named: "Foto")!, background: UIImage(named: "Morado")!),
             ClasesCV(title: "Física II", featuredImage: UIImage(named: "Fisica")!, background: UIImage(named: "Rosa")!),
             ClasesCV(title: "Diosito", featuredImage: UIImage(named: "Diosito")!, background: UIImage(named: "Azul")!),
-
-
         ]
     }
 }

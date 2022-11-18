@@ -11,6 +11,10 @@
 		260DC5D329185CA1003622F0 /* ContactosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D229185CA1003622F0 /* ContactosController.swift */; };
 		267A3059291DEF5000544754 /* RespuestasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A3058291DEF5000544754 /* RespuestasController.swift */; };
 		267A305B291F324A00544754 /* EvaluacionDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A305A291F324A00544754 /* EvaluacionDocenteController.swift */; };
+		267A30612927147A00544754 /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A30602927147A00544754 /* Materia.swift */; };
+		267A30632927147E00544754 /* DetallesMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A30622927147E00544754 /* DetallesMateria.swift */; };
+		267A30652927169200544754 /* MateriasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A30642927169200544754 /* MateriasController.swift */; };
+		267A30672927179000544754 /* CeldaMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A30662927178F00544754 /* CeldaMateriaController.swift */; };
 		267C37E6291B744C006DDECD /* Horario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37E5291B744C006DDECD /* Horario.swift */; };
 		267C37E8291B7458006DDECD /* HorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37E7291B7458006DDECD /* HorarioController.swift */; };
 		267C37EA291B7464006DDECD /* CeldaHorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C37E9291B7464006DDECD /* CeldaHorarioController.swift */; };
@@ -66,6 +70,10 @@
 		260DC5D229185CA1003622F0 /* ContactosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosController.swift; sourceTree = "<group>"; };
 		267A3058291DEF5000544754 /* RespuestasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespuestasController.swift; sourceTree = "<group>"; };
 		267A305A291F324A00544754 /* EvaluacionDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluacionDocenteController.swift; sourceTree = "<group>"; };
+		267A30602927147A00544754 /* Materia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+		267A30622927147E00544754 /* DetallesMateria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesMateria.swift; sourceTree = "<group>"; };
+		267A30642927169200544754 /* MateriasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MateriasController.swift; sourceTree = "<group>"; };
+		267A30662927178F00544754 /* CeldaMateriaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaMateriaController.swift; sourceTree = "<group>"; };
 		267C37E5291B744C006DDECD /* Horario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horario.swift; sourceTree = "<group>"; };
 		267C37E7291B7458006DDECD /* HorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioController.swift; sourceTree = "<group>"; };
 		267C37E9291B7464006DDECD /* CeldaHorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaHorarioController.swift; sourceTree = "<group>"; };
@@ -148,6 +156,10 @@
 		267A305F2921704E00544754 /* Clases */ = {
 			isa = PBXGroup;
 			children = (
+				267A30662927178F00544754 /* CeldaMateriaController.swift */,
+				267A30642927169200544754 /* MateriasController.swift */,
+				267A30622927147E00544754 /* DetallesMateria.swift */,
+				267A30602927147A00544754 /* Materia.swift */,
 			);
 			path = Clases;
 			sourceTree = "<group>";
@@ -454,9 +466,13 @@
 				267A305B291F324A00544754 /* EvaluacionDocenteController.swift in Sources */,
 				267C37FC291BA17E006DDECD /* CeldaBebidaController.swift in Sources */,
 				267C37F8291BA14B006DDECD /* CeldaMenuController.swift in Sources */,
+				267A30632927147E00544754 /* DetallesMateria.swift in Sources */,
+				267A30612927147A00544754 /* Materia.swift in Sources */,
 				267C37EA291B7464006DDECD /* CeldaHorarioController.swift in Sources */,
 				269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */,
+				267A30652927169200544754 /* MateriasController.swift in Sources */,
 				268EAFBD291A3D4A00D8ADB2 /* Pagado.swift in Sources */,
+				267A30672927179000544754 /* CeldaMateriaController.swift in Sources */,
 				267C37E8291B7458006DDECD /* HorarioController.swift in Sources */,
 				269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */,
 				267C3803291BA872006DDECD /* Especial.swift in Sources */,
