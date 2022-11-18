@@ -27,7 +27,7 @@ class MateriasController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaMateria") as! CeldaMateriaController
                     celda.lblMateria.text = materias![indexPath.row].materia
-                    celda.lblHorario.text = materias![indexPath.row].horario
+                    celda.lblId.text = materias![indexPath.row].id
                     celda.imgImagen.image = UIImage(named: materias![indexPath.row].imagen)
                     celda.imgImagen.layer.cornerRadius = 20
                     celda.imgImagen.clipsToBounds = true

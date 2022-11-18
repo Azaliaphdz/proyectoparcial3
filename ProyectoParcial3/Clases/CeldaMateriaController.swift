@@ -11,7 +11,7 @@ class CeldaMateriaController : UITableViewCell {
     
     @IBOutlet weak var lblMateria: UILabel!
     
-    @IBOutlet weak var lblHorario: UILabel!
+    @IBOutlet weak var lblId: UILabel!
     @IBOutlet weak var imgImagen: UIImageView!
     
     

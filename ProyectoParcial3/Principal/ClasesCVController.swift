@@ -14,6 +14,8 @@ class ClasesCVController: UIViewController {
     @IBOutlet weak var imgFondoBlanco2: UIImageView!
     
     
+    
+    
     var alumnos : [Contacto] = []
     var alumno : Contacto?
     var contactos : [Contacto] = []
@@ -48,11 +50,13 @@ class ClasesCVController: UIViewController {
         contactos.append(Contacto(nombre: "Marcela Hernández Delgado", cel: "6441172430", parentesco: "Madre", fondoC: "Morado", fotoC: "Contacto1"))
         contactos.append(Contacto(nombre: "Abisaid Manuel Peña Valdez", cel: "6441545187", parentesco: "Padre", fondoC: "Verde", fotoC: "Contacto2"))
         
-        materias.append(Materia(materia:"Programación",maestro: "Emiliano", horario: "7:00 am - 9:00 am", imagen: "programacion", faltas: "0", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Animación",maestro: "Guillermo", horario: "9:00 am - 11:00 am", imagen: "animacion", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2",evaluacion: 0 ))
-        materias.append(Materia(materia:"Diosito",maestro: "Francisco", horario: "11:00 am - 12:00 pm", imagen: "diosito", faltas: "3", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Redes",maestro: "Ruben Omar", horario: "12:00 pm - 2:00 pm", imagen: "redes", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"México",maestro: "Rosalva Ruiz", horario: "2:00 pm - 4:00 pm", imagen: "mexico", faltas: "2", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Animación",maestro: "Armando Zamora", id: "ANM", imagen: "Animacion", faltas: "4", check: "check2", rate1: "2n1", rate2: "triste2", rate3: "maso2", rate4: "2n4", rate5: "2n5", evaluacion: 0))
+        materias.append(Materia(materia:"Diseño Web",maestro: "Danna Aguilar", id: "DIS", imagen: "Dis_web", faltas: "1", check: "check2",  rate1: "2n1", rate2: "2n2", rate3: "2n3", rate4: "2n4", rate5: "2n5",evaluacion: 0 ))
+        materias.append(Materia(materia:"Diosito",maestro: "Idalia Padilla", id: "DIO", imagen: "Diosito", faltas: "3", check: "check2",  rate1: "2n2", rate2: "2n2", rate3: "2n3", rate4: "2n4", rate5: "2n5", evaluacion: 0))
+        materias.append(Materia(materia:"Estadística",maestro: "Alejandra Esquer", id: "EST", imagen: "Estadistica", faltas: "1", check: "check2",  rate1: "2n1", rate2: "2n2", rate3: "2n3", rate4: "2n4", rate5: "2n5", evaluacion: 0))
+        materias.append(Materia(materia:"Programación",maestro: "César Amaya", id: "PRG", imagen: "Progra", faltas: "2", check: "check2",  rate1: "2n1", rate2: "2n2", rate3: "2n3", rate4: "2n4", rate5: "2n5", evaluacion: 0))
+        materias.append(Materia(materia:"Fotografía",maestro: "Marisela Delgadillo", id: "FTO", imagen: "Foto", faltas: "2", check: "check2",  rate1: "2n1", rate2: "2n2", rate3: "2n3", rate4: "2n4", rate5: "2n5", evaluacion: 0))
+        materias.append(Materia(materia:"Física",maestro: "Nadia López", id: "FIS", imagen: "Fisica", faltas: "2", check: "check2",  rate1: "2n1", rate2: "2n2", rate3: "2n3", rate4: "2n4", rate5: "2n5", evaluacion: 0))
         
         
     }

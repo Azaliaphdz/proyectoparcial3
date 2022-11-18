@@ -20,7 +20,7 @@ class DetallesMateria : UIViewController {
     
     @IBOutlet weak var lblMaestro: UILabel!
     
-    @IBOutlet weak var lblHorario: UILabel!
+    @IBOutlet weak var lblId: UILabel!
     
     @IBOutlet weak var lblFaltas: UILabel!
     
@@ -36,16 +36,28 @@ class DetallesMateria : UIViewController {
     
     @IBOutlet weak var imgRate5: UIImageView!
     
+    
+    @IBOutlet weak var imgFotoMateria: UIImageView!
+    
+    
     override func viewDidLoad() {
             super.viewDidLoad()
             
             if materia != nil{
                 self.title = ""
+                
+                imgFotoMateria.layer.cornerRadius = 1.0
+                imgFotoMateria.layer.shadowRadius = 10.0
+                imgFotoMateria.layer.shadowOpacity = 0.4
+                imgFotoMateria.layer.shadowOffset = CGSize(width: 5, height: 10)
+                imgFotoMateria.clipsToBounds = false
+                
                 imgPortada.image = UIImage(named: materia!.imagen)
+                
                 
                 lblMateria.text = materia!.materia
                 lblMaestro.text = materia!.maestro
-                lblHorario.text = materia!.horario
+                lblId.text = materia!.id
                 lblFaltas.text = materia!.faltas
                 imgCheck.image = UIImage(named: materia!.check)
                 checked = materia!.asistencia
@@ -99,11 +111,7 @@ class DetallesMateria : UIViewController {
                 }
                 
                 
-                
-
-                //lblMatricula.text = alumno?.matricula
-                //lblEdad.text = "\(alumno!.edad)"
-                //lblCarrera.text = alumno!.carrera
+    
             } else{
                 self.title = "Materia"
             }

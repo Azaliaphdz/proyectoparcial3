@@ -8,7 +8,7 @@
 class Materia {
     var materia : String
     var maestro : String
-    var horario : String
+    var id : String
     var imagen : String
     var faltas : String
     var check : String
@@ -21,10 +21,10 @@ class Materia {
     var evaluacion : Int
     
     
-    init(materia:String, maestro: String, horario: String, imagen: String, faltas : String, check : String, rate1: String, rate2: String, rate3 : String, rate4 : String, rate5 : String, evaluacion : Int){
+    init(materia:String, maestro: String, id: String, imagen: String, faltas : String, check : String, rate1: String, rate2: String, rate3 : String, rate4 : String, rate5 : String, evaluacion : Int){
         self.materia = materia
         self.maestro = maestro
-        self.horario = horario
+        self.id = id
         self.imagen = imagen
         self.faltas = faltas
         self.check = check
