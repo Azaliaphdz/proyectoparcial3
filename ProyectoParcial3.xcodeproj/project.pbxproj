@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		260DC5D129185A3C003622F0 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D029185A3C003622F0 /* Contacto.swift */; };
 		260DC5D329185CA1003622F0 /* ContactosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DC5D229185CA1003622F0 /* ContactosController.swift */; };
+		2654D36D2927AD4200AB970E /* CPagos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2654D36C2927AD4200AB970E /* CPagos.swift */; };
+		2654D36F2927AD5300AB970E /* CeldaCPagosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2654D36E2927AD5300AB970E /* CeldaCPagosController.swift */; };
+		2654D3712927AD6700AB970E /* CPagosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2654D3702927AD6700AB970E /* CPagosController.swift */; };
 		267A3059291DEF5000544754 /* RespuestasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A3058291DEF5000544754 /* RespuestasController.swift */; };
 		267A305B291F324A00544754 /* EvaluacionDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A305A291F324A00544754 /* EvaluacionDocenteController.swift */; };
 		267A30612927147A00544754 /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A30602927147A00544754 /* Materia.swift */; };
@@ -68,6 +71,9 @@
 /* Begin PBXFileReference section */
 		260DC5D029185A3C003622F0 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		260DC5D229185CA1003622F0 /* ContactosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosController.swift; sourceTree = "<group>"; };
+		2654D36C2927AD4200AB970E /* CPagos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPagos.swift; sourceTree = "<group>"; };
+		2654D36E2927AD5300AB970E /* CeldaCPagosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCPagosController.swift; sourceTree = "<group>"; };
+		2654D3702927AD6700AB970E /* CPagosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPagosController.swift; sourceTree = "<group>"; };
 		267A3058291DEF5000544754 /* RespuestasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespuestasController.swift; sourceTree = "<group>"; };
 		267A305A291F324A00544754 /* EvaluacionDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluacionDocenteController.swift; sourceTree = "<group>"; };
 		267A30602927147A00544754 /* Materia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 		267A305E2921703000544754 /* Calendario de Pagos */ = {
 			isa = PBXGroup;
 			children = (
+				2654D36C2927AD4200AB970E /* CPagos.swift */,
+				2654D36E2927AD5300AB970E /* CeldaCPagosController.swift */,
+				2654D3702927AD6700AB970E /* CPagosController.swift */,
 			);
 			path = "Calendario de Pagos";
 			sourceTree = "<group>";
@@ -467,6 +476,8 @@
 				267C37FC291BA17E006DDECD /* CeldaBebidaController.swift in Sources */,
 				267C37F8291BA14B006DDECD /* CeldaMenuController.swift in Sources */,
 				267A30632927147E00544754 /* DetallesMateria.swift in Sources */,
+				2654D36F2927AD5300AB970E /* CeldaCPagosController.swift in Sources */,
+				2654D36D2927AD4200AB970E /* CPagos.swift in Sources */,
 				267A30612927147A00544754 /* Materia.swift in Sources */,
 				267C37EA291B7464006DDECD /* CeldaHorarioController.swift in Sources */,
 				269FCEC0291770E80088C162 /* ClasesCV.swift in Sources */,
@@ -476,6 +487,7 @@
 				267C37E8291B7458006DDECD /* HorarioController.swift in Sources */,
 				269FCEBE29176E0F0088C162 /* CeldaClasesCV.swift in Sources */,
 				267C3803291BA872006DDECD /* Especial.swift in Sources */,
+				2654D3712927AD6700AB970E /* CPagosController.swift in Sources */,
 				268EAFBB291A357400D8ADB2 /* CeldaContactoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
